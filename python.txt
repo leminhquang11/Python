@@ -1,0 +1,39 @@
+*python rất mạnh về toán học
+*việc thụt lề trong python rất quan trọng
+*biến trong python ko cần khai báo dạng biến
+*nếu cộng 2 biến khác kiểu sẽ xảy ra lỗi
+*khi muốn thể hiện số ảo thì thêm chữ j kí hiệu cho phần ảo
+*khi dùng lệnh int(x) thì x sẽ bị làm tròn xuống
+*format: dinh dang tra ve
+*capitalize: Ham tra ve chuoi voi ki tu dau viet hoa va viet thuong tat ca cac ki tu con lai. vd b=a.capitalize()
+*upper: Tat ca cac chu trong chuoi thanh viet hoa
+*lower: ve chu thuong
+*swapcase: viet thuong thanh viet hoa, viet hoa thanh viet thuong
+*title: chu dau tien cua cac tu viet hoa, cac tu con lai viet thuong
+* center: can giua: vd: b=a.center(30,'*')
+*rjust: can trai
+*ljust: can trai
+*encode(encoding='', errors=''): chuyen chuoi ve 1 dang ma hoa nao do
+*join: cong 1 danh sach voi 1 chuoi
+*replace: thay the ki tu hoac chuoi bang chuoi nao do moi. note: co the tuy chon thay chi thay 1 ki tu bang cach them 1 hang so vao ham
+*strip: cat chu nam o 2 dau
+*rstrip: chi cat ben phai
+*lstrip: chi cat ben trai
+*split: cat chuoi thanh 1 list cac chuoi be hon bang 1 ki tu nao day. Note: co them hang so la so lan cat
+*rsplit: cat tu phai qua
+*partition: cat chuoi thanh 3 phan 
+*count: tra ve so ki tu trong chuoi: vd
+b=a.count('e',0,10)
+*startswith: tra ve true hoac false voi ki tu co phai ki tu bat dau trong chuoi ko
+*find/index: vi tri ki tu dau tien cua chuoi con trong chuoi cha
+*islower/isupper: kiem tra xem la viet hoa viet thuong co dung ko
+*isdigit: ktra xem tat ca co phai so hay ko
+*isspace: tat ca co phai khoang trong ko
+*list khac array o 1 diem la co the chua duoc cac kieu du lieu trong 1 list
+*tao ra 1 list tu 0 den 29(30 phan tu bat dau tu 0) a=[i for i in range(30)]
+*tao ra 1 list gom cac list duoc tinh bang cong thuc
+	a=[[n,n*5,n*5*2] for n in range(1,4)]
+* a= list('quang'), chia 1 chuoi thanh 1 list cac ki tu
+* cong list: a=[1,2]
+			a= a+['one', 'two']
+			note: khong cong chuoi va chuoi duoc
